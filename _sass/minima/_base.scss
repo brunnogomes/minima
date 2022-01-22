@@ -198,6 +198,7 @@ pre {
  * Wrapper
  */
 .wrapper {
+  background-color: #DFDDDB;
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
@@ -212,7 +213,12 @@ pre {
   }
 }
 
-
+.cta_wrapper {
+  background-color: white;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
 
 /**
  * Clearfix
